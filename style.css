@@ -6,7 +6,6 @@ html{
 	padding: 0;
 	box-sizing: border-box;
 }
-
 h2, h5{
 	color: white;
 	font-family: 'Hind Siliguri', sans-serif;
@@ -15,7 +14,6 @@ p {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 }
-
 /*Start of Navigation Bar */
 nav{
 	position: fixed;
@@ -23,10 +21,19 @@ nav{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	min-height:  8vh;
-	background-color: black;
+	min-height:  9vh;
+	background-color: rgba(0,0,0,0.7);
 	font-family: 'Hind Siliguri', sans-serif;
 	z-index: 1;
+}
+/* SaveGaia and EarthIcon */
+.logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.logo img {
+	width: 10%;
 }
 .logo h2 a{
 	color: white;
@@ -45,8 +52,9 @@ nav{
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 17px;
 }
+/*For Responsive Navigation bar */
 .burger {
 	display: none;
 	cursor: pointer;
@@ -61,8 +69,7 @@ nav{
 a:hover {
 	color: aqua;
 }
-
-/* End of Navbar */
+/* End of Navigation bar */
 /* Start of Introduction */
 .introduction{
 	display: flex;
@@ -73,7 +80,6 @@ a:hover {
 	background-image: url("Images/globalwarming.jpg");
 	background-size: cover;	
 }
-
 .introduction h2{
 	font-size: 35px;
 	font-family: 'Hind Siliguri', sans-serif;
@@ -86,9 +92,11 @@ a:hover {
 	font-size: 20px;
 }
 /* End of Introduction */
+/* Start of About area */
 .about-area{
 	display: flex;
 	flex-direction: row;
+	height: 100vh;
 }
 .about-container{
 	display: flex;
@@ -245,9 +253,8 @@ a:hover {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
-	height: 80vh;
+	height: 100vh;
 }
-
 .impacts-text-box{
 	display: flex;
 	justify-content: center;
@@ -277,12 +284,10 @@ a:hover {
 	width: 100%;
 	height: 50%;
 }
-
 .impacts-summary-box{
     width: 100%;
-    height: 103vh;
+    height: 115vh;
 }
-
 .impacts-summary{
     position: relative;
     width: 33%;
@@ -290,7 +295,7 @@ a:hover {
     float: left;
     /* change width to 100% for responsive*/
 }
-
+/* opacity with box feature */
 .impacts-summary:hover .image {
     opacity: 0.5;
 }
@@ -324,6 +329,7 @@ a:hover {
 /* Start of Solutions Portion */
 .solutions-area{
 	width: 100%;
+	height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Images/solutionbg.jpg);
     background-position: center;
     background-size: cover;
@@ -346,6 +352,7 @@ a:hover {
     font-size: 15px;
     line-height: 15px;
 }
+/* Card with 'bouncing effect' feature */
 .card h5{
 	font-size: 15px;
 }
@@ -375,23 +382,23 @@ a:hover {
     background-image: url(Images/solution4.jpg);
 }
 .card5{
-	background-image: url(Images/donation.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url(Images/donation.jpg);
 }
 .card6{
-	background-image: url(Images/make-a-change.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)),url(Images/make-a-change.jpg);
 }
 /* Card 7,8,9 for Help Now Portion */
 .card7{
-	background-image: url(Images/everycenthelps.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(Images/everycenthelps.jpg);
 }
 .card8{
-	background-image: url(Images/amazon.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url(Images/amazon.jpg);
 }
 .card9{
-	background-image: url(Images/austrailia.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)),url(Images/austrailia.jpg);
 }
 .card10{
-	background-image: url(Images/india.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url(Images/india.jpg);
 }
 .card:hover{
     transform: translateY(-10px);
@@ -411,6 +418,7 @@ a:hover {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	padding: 2% 0;
 }
 .card-box{
 	display: flex;
@@ -419,6 +427,7 @@ a:hover {
 	align-items: center;
 	float: left;
 }
+/* Button feature */
 .button {
 	background-color: #fff;
 	border: none;
@@ -453,14 +462,29 @@ label{
 	padding-top: 2%;
 	font-size: 50px;
 }
+.footer img {
+	padding-top: 1%;
+	width: 10%;
+	height: auto;
+}
 .footer p {
 	padding-top: 4%;
 }
+/* Responsive for tablet change font sizes and feature sizes*/
 @media screen and (max-width: 1024px) {
 	.nav-links {
 		width: 60%;
 	}
+	.impacts-summary-box{
+		width: 100%;
+		height: 115vh;
+	}
+	.card{
+		width: 120px;
+		height: 160px;
+	}
 }
+/* Responsive for Mobile, changing font and feature sizes*/
 @media screen and (max-width: 768px) {
 	body {
 		overflow-x: hidden;
@@ -471,7 +495,7 @@ label{
 		right: 0px;
 		height: 92vh;
 		top: 8vh;
-		background-color: black;
+		background-color:rgba(0,0,0,0.7);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -533,9 +557,10 @@ label{
 	.impacts-summary{
 		width: 100%;
 	}
+	/* card size change */
 	.card{
 		width: 100px;
-		height: 130px;
+		height: 110px;
 	}
 	.help-now-text h2{
 		font-size: 40px;
@@ -543,11 +568,12 @@ label{
 	.card h5 {
 		font-size: 12px;
 	}
+	/* button feature */
 	.button {
 		font-size: 15px;
 	}
 }
-
+/* Animate the navigation bar */
 .nav-active{
 	transform: translateX(0%);
 }
