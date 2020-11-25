@@ -54,11 +54,9 @@ This project consists a total of 6 portions & features.
 - Rounded Buttons - allows users to click on buttons to redirect them to a certain link
 - Cards with bouncing effect - allows users to hover over a image and make the image have a "bounce" effect
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 - I plan to make my page more responsive, making the text animations and the navbar animated.
 ### Features Left to Implement
-
+- NIL
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
