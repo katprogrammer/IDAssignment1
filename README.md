@@ -76,6 +76,12 @@ Tested across three browsers:
 
 The application works across all modern browsers except Internet explorer, since I'm using Javascript which needs a newer version of Internet Explorer/browser.
 
+Validated with https://validator.w3.org/ & https://jigsaw.w3.org/css-validator/:
+1. Realised its not good to set width and height in html, just do in css
+2. The </body> tag should be under the footer. And the footer must not be outside the body
+3. CSS remember to put comma after naming font family
+4. form action shouldn't go nowhere so I tried putting websites but it did not work
+5. iframe attributes should also be set in css not html e.g. border="0"
 ## Credits
 
 ### Content
@@ -85,11 +91,12 @@ The application works across all modern browsers except Internet explorer, since
 - The photos used in this site were obtained from pixabay and unsplash. Links are below
 - https://pixabay.com/
 - https://unsplash.com/
-- https://www.fortbend.lib.tx.us/event/design-you-earth-day-origami
+- https://www.fortbend.lib.tx.us/event/design-you-earth-day-origami (icon)
 ### Acknowledgements
 - https://www.w3schools.com/
 - https://pixabay.com/
 - https://unsplash.com/
+- https://www.youtube.com/watch?v=G4H1N_yXBiA&list=LL&index=2&ab_channel=NationalGeographic (Video for causes and effects of global warming)
 - https://www.youtube.com/watch?v=FWQir0ZfAJI&list=LL&index=3&t=1s&ab_channel=JulioCodes (Responsive Image Slideshow)
 - https://www.youtube.com/watch?v=Oa9LTDR9ugU&list=LL&index=4&ab_channel=EasyTutorials (Bouncing Card Effect)
 - https://www.youtube.com/watch?v=gXkqy0b4M5g&list=LL&index=1&t=1179s&ab_channel=DevEd (Responsive NavBar)
