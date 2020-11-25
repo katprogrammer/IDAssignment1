@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/icon.jpg">
     <title>Global Warming</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,8 +16,10 @@
 
 
 <body>
+    <!--Navigation Bar-->
     <nav>
         <div class ="logo">
+            <img src="Images/icon.jpg" alt="icon">
             <h2><a href="#">SaveGaia</a></h2>
         </div>
         <ul class ="nav-links">
@@ -32,12 +35,14 @@
             <div class="line3"></div>
         </div>
     </nav>
+    <!--Introduction Page-->
     <div class="introduction">
         <h2 style="text-align:center">Global Warming.</h2><br>
         <p style="text-align:center">Global Warming poses the biggest threat for the human race in the 21st century.<br>
             With global temperatures rising at an exponential rate, <br> natural disasters occuring more frequently
             around the world <br> and even causing sea levels to rise the highest in the past 100 years.</p>
     </div>
+    <!--About portion, includes definition of global warming-->
     <div class="about-area" id="about">
         <div class="about-container">
             <h2>What is Global Warming?</h2>
@@ -58,6 +63,7 @@
             </div>
         </div>   
     </div>
+    <!--Causes portion, covers the three main causes of global warming using slideshow-->
     <div class="causes-area" id="causes">
         <div class="slideshow">
             <div class="slideshow-item">
@@ -106,6 +112,7 @@
             </div>
         </div>
     </div>
+    <!--Impacts portion, provides youtube video and summaries to learn about impacts of global warming-->
     <div class="impacts-area" id="impacts">
         <div class="impacts-text-box">
             <h2>Impacts</h2>
@@ -127,6 +134,7 @@
                 frameborder="0"></iframe>
         </div>
     </div>
+    <!--Impacts Summary Portion-->
     <div class="impacts-summary-box">
         <div class="impacts-summary">
             <img src="Images/impact1.jpg" alt="impact1" class="image">
@@ -160,6 +168,7 @@
             </div>
         </div>
     </div>
+    <!--Solutions Portion, includes 4 useful ways to tackle global warming-->
     <div class="solutions-area" id="solutions">
         <div class="solution-text-box">
             <div class="solution-text">
@@ -176,6 +185,7 @@
                     campaigns, petitions and donation drives to reduce global warming!
                 </p>
             </div>
+            <!--Card Feature-->
             <div class="cardarea">
                 <div class="card card1">
                     <h5>Solar-Panels</h5>
@@ -192,6 +202,7 @@
             </div>
         </div>
     </div>
+    <!--Help Now Portion, allows users to donate now and sign petitions using button features-->
     <div class="helpnow-area" id="helpnow">
         <div class="help-now-text">
             <h2>What you can do now.</h2>
@@ -210,12 +221,13 @@
                 </div>
                 <div class="card-box">
                     <div class="card card7">
-                        <h5>Help Stop Deforestation</h5>
+                        <h5>Help Fund Solar Panels</h5>
                     </div>
-                    <a href="https://tree-nation.com/?gclid=Cj0KCQiAqdP9BRDVARIsAGSZ8AmebOVabCnN7bZfNhak9okOQv3UFDI5Ybjs8px6xCrFFyTmb8QrmXYaAg48EALw_wcB" class="button">Donate Now</a>
+                    <a href="https://itif.org/issues/climate-tech-rdd" class="button">Donate Now</a>
                 </div>
             </div>
         </div>
+        <!--Signing Petitions Portion-->
         <div class="sign-petitionsarea">
             <div class="help-now-text">
                 <h2>Sign these Petitions!</h2>
@@ -247,16 +259,19 @@
             </div>
         </div>
     </div>
+    <!--Using Javascript-->
     <script src="script.js"></script>
 </body>
+<!--Contact Us footer-->
 <footer>
     <div class="footer">
+        <img src="Images/icon.jpg" alt="icon">
         <h2 style="text-align: center;">Contact Us</h2>
         <form action="">
         <label><p style="text-align: center;">Enter your email:</p></label>
-        <input type="email" id="email" name="email">
-        <input type="submit">
-        <label><p style="text-align: center;">HP: 8822 7711</p></label>
+        <p style="text-align: center;"><input type="email" id="email" name="email" placeholder="     Type your email here"></p>
+        <p><textarea name="subject" placeholder="                      Write something.." style="height: 170px;width: 300px;"></textarea></p>
+        <p style="text-align: center;"><input type="submit"></p>
         </form>
         <p style="text-align: center;">Copyright © 2020 by Wai Keat All Rights Reserved.</p>
     </div>
