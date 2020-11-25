@@ -6,25 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Warming</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
 </head>
 
+
 <body>
-    <div class="navbar">
-        <h2 class="logo"><a href="#">SaveGaia</a></h2>
-        <nav>
-            <ul class="nav">
-                <li><a href="#about">About</a></li>
-                <li><a href="#causes">Causes</a></li>
-                <li><a href="#impacts">Impacts</a></li>
-                <li><a href="#solutions">Solutions</a></li>
-                <li><a href="#helpnow">Help Now</a></li>
-            </ul>
-        </nav>
-    </div>
+    <nav>
+        <div class ="logo">
+            <h2><a href="#">SaveGaia</a></h2>
+        </div>
+        <ul class ="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#causes">Causes</a></li>
+            <li><a href="#impacts">Impacts</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#helpnow">Help Now</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
     <div class="introduction">
         <h2 style="text-align:center">Global Warming.</h2><br>
         <p style="text-align:center">Global Warming poses the biggest threat for the human race in the 21st century.<br>
@@ -39,15 +46,17 @@
                 dioxide, CFCs, and other pollutants. This is due to the natural greenhouse effect where greenhouse gases
                 are released into the atmosphere and traps heat causing the earth temperature to rise.</p>
         </div>
-        <div id="slider">
-            <figure>
-                <img src="Images/bigdrought.jpg" alt="drought" width="400px" height="500px">
-                <img src="Images/deforestation2.jpg" alt="deforestation" width="400px" height="500px">
-                <img src="Images/forestfire.jpg" alt="forestfire" width="400px" height="500px">
-                <img src="Images/meltingice.jpg" alt="meltingice" width="400px" height="500px">
-                <img src="Images/pollution.jpg" alt="pollution" width="400px" height="500px">
-            </figure>
-        </div>
+        <div class="slider-container">
+            <div id="slider">
+                <figure>
+                    <img src="Images/bigdrought.jpg" alt="drought" width="400px" height="500px">
+                    <img src="Images/deforestation2.jpg" alt="deforestation" width="400px" height="500px">
+                    <img src="Images/forestfire.jpg" alt="forestfire" width="400px" height="500px">
+                    <img src="Images/meltingice.jpg" alt="meltingice" width="400px" height="500px">
+                    <img src="Images/pollution.jpg" alt="pollution" width="400px" height="500px">
+                </figure>
+            </div>
+        </div>   
     </div>
     <div class="causes-area" id="causes">
         <div class="slideshow">
@@ -89,10 +98,9 @@
                 <div class="slideshow-item-text">
                     <h5>Mass Deforestation</h5>
                     <p> Mass deforestation contributes the most to the greenhouse effect as trees provide almost 67% of
-                        our oxygen and releases the most Carbon dioxide gas in return. When more trees are being cut
-                        down, there will be less trees to absorb the carbon dioxide from the atmospheric air and
-                        increases the rate of carbon oxidation. Thus there is more greenhouse gases to absorb heat in
-                        the air leading to global warming and climate change.
+                        our oxygen and releases the most Carbon dioxide gas in return. When more trees are cut
+                        down, there will be less trees to absorb the carbon dioxide from the atmospheric air.
+                        Thus, more greenhouse gases in the air trapping heat and leading to global warming.
                     </p>
                 </div>
             </div>
@@ -231,6 +239,7 @@
             <img src="Images/everycenthelps.jpg" alt="everycenthelps">
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
