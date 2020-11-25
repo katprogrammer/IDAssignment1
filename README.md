@@ -1,6 +1,6 @@
 # Global Warming
 
-The purpose of this website is to raise awareness on the issue of climate change/global warming what is global warming?, why is it important? where is it happening?, educate viewers on what they can do to help climate change.
+The purpose of this website is to raise awareness on the issue of climate change/global warming. Answering questions such as what is global warming?, why is it important? where is it happening?. The goal is to educate viewers on what they can do to tackle global warming, so global warming can be reduced and we can SaveGaia Together.
 
 ## Design Process
 
@@ -24,9 +24,8 @@ Environmentalists can also contribute by submitting possible solutions for globa
 - Will want to contribute to the website by donating money or signing petitions
 - The Website will have a Donate Page including links to different petitions they can sign, charities they can donate to including the company as well, telling the viewers where the money goes to.
 
-Include Wireframe(here)
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+Wireframe - desktop : https://drive.google.com/file/d/1epZAonoh3X0HQtuZ38KcIkFdDnFQH5hs/view?usp=sharing
+Wireframe - Mobile : https://drive.google.com/file/d/1R8B8a-QEiyP2HdRr2kNoFWE_AhwYd_Ln/view?usp=sharing
 
 ## Features
 
@@ -48,8 +47,8 @@ This project consists a total of 6 portions & features.
 7. Contact Us portion, this is the footer of the page where organizations or the general public can send feedback/solutions to global warming to SaveGaia email. They can also contact SaveGaia using social media or sending an official email.
 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
 - Navigation bar - allows users to navigate through the website easily by clicking the buttons to redirect them to a certain portion.
+- Burger navbar - Responsive version of Navigation bar that fades in when user taps the burger icon
 - Auto Image slider & Image Slideshow - allows users to associate pictures with the given text and helps them learn better
 - Opacity with Box - allows user to hover over an image and see a box of text.
 - Rounded Buttons - allows users to click on buttons to redirect them to a certain link
@@ -59,7 +58,6 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - I plan to make my page more responsive, making the text animations and the navbar animated.
 ### Features Left to Implement
-- Contact Us Page
 
 ## Technologies Used
 
@@ -68,22 +66,17 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - Visual Studio Code used for Integrated Development Environment to run HTML and CSS IDE (https://code.visualstudio.com/)
 - HTML used to create content (meaningful text, containers) (https://whatwg.org/)
 - CSS to style the HTML file (Color, animation, sizing, padding and font decoration) (https://www.w3.org/)
+- Javascript to animate responsive navigation bar (burger menu) (https://www.javascript.com/)
 
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Tested across three browsers:
+1. Microsoft Edge
+2. Chrome
+3. Firefox
+4. Internet Explorer
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The application works across all modern browsers except Internet explorer, since I'm using Javascript which needs a newer version of Internet Explorer/browser.
 
 ## Credits
 
@@ -94,10 +87,12 @@ If this section grows too long, you may want to split it off into a separate fil
 - The photos used in this site were obtained from pixabay and unsplash. Links are below
 - https://pixabay.com/
 - https://unsplash.com/
+- https://www.fortbend.lib.tx.us/event/design-you-earth-day-origami
 ### Acknowledgements
 - https://www.w3schools.com/
 - https://pixabay.com/
 - https://unsplash.com/
 - https://www.youtube.com/watch?v=FWQir0ZfAJI&list=LL&index=3&t=1s&ab_channel=JulioCodes (Responsive Image Slideshow)
 - https://www.youtube.com/watch?v=Oa9LTDR9ugU&list=LL&index=4&ab_channel=EasyTutorials (Bouncing Card Effect)
+- https://www.youtube.com/watch?v=gXkqy0b4M5g&list=LL&index=1&t=1179s&ab_channel=DevEd (Responsive NavBar)
 
