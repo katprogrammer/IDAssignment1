@@ -74,7 +74,20 @@ Tested across three browsers:
 3. Firefox
 4. Internet Explorer
 
+Tested and made responsive across these devices:
+1. Moto G4
+2. Galaxy S5
+3. Pixel 2
+4. Pixel 2 XL
+5. Iphone 6/7/8
+6. Iphone 6/7/8 Plus
+7. Iphone X
+8. iPad
+9. Surface Duo
+
 The application works across all modern browsers except Internet explorer, since I'm using Javascript which needs a newer version of Internet Explorer/browser.
+
+Furthermore, this application looks more stretched in Galaxy fold, iPad Pro and Iphone 5/SE. I suspect since these are Latest products of samsung and Apple, html5 is not fully compatible with the latest version. 
 
 Validated with https://validator.w3.org/ & https://jigsaw.w3.org/css-validator/:
 1. Realised its not good to set width and height in html, just do in css
